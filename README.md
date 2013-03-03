@@ -1,4 +1,4 @@
 canoeist2002.github.com
 =======================
 
-An instruction to myself, it is a resume.
+An instruction to myself, it is a resume. Is it good?
