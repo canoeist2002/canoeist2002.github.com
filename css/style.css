@@ -31,6 +31,12 @@ p {
   color: #666;
 }
 
+img {
+-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+}
+
 .badge {
   text-indent: 0;
 }
@@ -118,9 +124,9 @@ a:hover {
 .carousel-caption {
   background-color: transparent;
   position: static;
-  max-width: 550px;
+  max-width: 700px;
   padding: 0 20px;
-  margin-top: 300px;
+  margin-top: 400px;
 }
 .carousel-caption p,
 .carousel-caption .lead {
