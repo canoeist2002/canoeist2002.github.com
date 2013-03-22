@@ -69,8 +69,8 @@
 
 h2 {
   color: #666;
-  font-size: 1.5em;
-  margin: 60px 0 0 0;
+  font-size: 2em;
+  margin: 60px 0 20px 0;
 }
 
 h2.detail {
@@ -89,10 +89,16 @@ p {
   color: #666;
 }
 
+pre {
+  margin:30px 0;
+  padding: 20px;
+}
+
 img {
--moz-box-shadow: 10px 10px 5px #888;
--webkit-box-shadow: 10px 10px 5px #888;
-box-shadow: 10px 10px 5px #888;
+-moz-box-shadow: 5px 5px 5px #888, -2px -2px 5px #888;
+-webkit-box-shadow: 5px 5px 5px #888, -2px -2px 5px #888;
+box-shadow: 5px 5px 5px #888, -2px -2px 5px #888;
+margin: 20px 0px;
 }
 
 .badge {
