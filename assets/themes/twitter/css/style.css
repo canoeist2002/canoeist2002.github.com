@@ -9,6 +9,7 @@
 .navbar .nav {
   float: right; }
 
+
 /* posts index */
 .post > h3.title {
   position: relative;
@@ -135,7 +136,9 @@ a:hover {
   text-align: center;
   border-left: 1px solid rgba(255,255,255,.75);
   border-right: 1px solid rgba(0,0,0,.1);
+  text-shadow: none;
 }
+
 
 .masthead .navbar .nav li a:hover {
   background-color: #B94A4A;
