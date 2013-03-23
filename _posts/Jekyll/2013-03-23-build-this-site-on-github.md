@@ -4,9 +4,16 @@ title: "Build this site on Github"
 tagline: "如何创建本网站"
 description: "Jekyll Bootstrap Github"
 category: tutorial
-tags: []
+tags: [Jekyll]
 ---
 {% include JB/setup %}
+
+我们将在这里学到如何在 github 上构建自己的网站，它可以是你喜欢的任何网站，也可以是一个 BLOG 系统，在篇文章中我们将学会：
+
+* 如何使用 Jekyll 在 github 上建立网站
+* 如何在本地运行和调试网站
+* 定义站点的基本结构
+* 上传网站到 github
 
 ## 一、入门
 
@@ -39,7 +46,9 @@ tags: []
     $ cd USERNAME.github.com 
     $ jekyll --server
 
-这个时候，你就可以通过 http://localhost:4000/ 来访问你自己的本地站点了。
+这个时候，你就可以通过 http://localhost:4000/ 来访问你自己的本地站点了，你将可以看到下面的内容：
+
+![Jekyll Bootstrap 的默认站点](/images/tutorial/default-site-for-jekyll-bootstrap.png)
 
 ## 三、与中文相关的问题
 
@@ -61,7 +70,7 @@ tags: []
 
 ## 四、自定义网站基本信息
 
-打开目录中的 _config.yml 文件，会看到如下的内容：
+<p>打开目录中的 _config.yml 文件，会看到如下的内容：</p>
 
     title : Jekyll Bootstrap
     tagline: Site Tagline
@@ -78,30 +87,7 @@ tags: []
 
 把 username 改成你自己的名字就行了。
 
-## 五、发表一个 Post
-
-<p><span class="badge badge-important">1</span>　使用如下命令来创建一个 Post：</p>
-
-   $ rake post title = "Hello world"
-
-<p>该命令会自动的在 _posts 目录下面生成一个以日期开头的文件，就样这样的格式 2013-03-23-hello-world.md ，这种 md 文件可以使用 Markdown 的方法来编辑，也可以使用 HTML 格式来编辑，非常方便。</p>
-
-<p><span class="badge badge-important">2</span>　设置文件头，使用你喜欢的文本编辑器来打开文件，我用的是 sublime 这款免费、功能强大的编辑器，首先修改文件头里的信息：</p>
-
-    ---
-    layout: post
-    title: "Build this site on Github"
-    description: ""
-    category: 
-    tags: []
-    ---
-    {% include JB/setup %}
-
-根据需要，加上你想上的内容，category 是该 Post 属于什么类别，tags 当然就是标签了，推荐使用英文来完成。
-
-<p><span class="badge badge-important">3</span>　编辑文件，你可以在里面输入任何的内容了，使用 markdown 格式和 HTML 格式都可以，混合写都行。你可以通过本地的 Jekyll 站点来查看效果。</p>
-
-## 六、上传到 github
+## 五、上传到 github
 
 <p><span class="badge badge-important">1</span>　发布内容，可以使用 git 的命令来完成，和使用 git 管理其它的开源项目是一样的：</p>
 
