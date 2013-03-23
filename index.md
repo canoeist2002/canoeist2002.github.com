@@ -10,4 +10,4 @@ tagline: 笔记
   <a href="about.html" class="btn btn-large btn-primary">个人简历</a>
 </div>
 
-本网站的建站[教程](/tutorial/2013/03/22/build-this-on-github/)！
+查看本网站的建站[教程](/tutorial/build-this-site-on-github)！！
