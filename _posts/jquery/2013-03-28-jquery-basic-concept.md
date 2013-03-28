@@ -11,9 +11,9 @@ tags: [web, jquery]
 
 这里记录下了我学习 jQuery 中最重要的内容和过程，当然首先是从哪些地方找到这样学习材料：
 
-图书《jQuery 基础教程》
-在线学习网站 [codecademy](http://www.codecademy.com/)
-官方网站  [jQuery](http://jquery.com/)
+* 图书《jQuery 基础教程》
+* 在线学习网站 [codecademy](http://www.codecademy.com/)
+* 官方网站  [jQuery](http://jquery.com/)
 
 这里我是从 jQuery 1.9.1 这个版本来做演示的，下面是最基本的演示文件：
 
