@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "jQuery basic concept"
-description: ""
-category: 
-tags: []
+description: "jQuery basic concept"
+category: jquery
+tags: [web, jquery]
 ---
 {% include JB/setup %}
 
