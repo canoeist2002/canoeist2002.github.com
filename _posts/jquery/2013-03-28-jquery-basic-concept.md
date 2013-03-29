@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "jQuery basic concept"
-description: "jQuery basic concept"
+title: "jQuery Basic Concept"
+description: "jQuery Basic Concept"
 category: jquery
 tags: [web, jquery]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ccnp_basic_concept"
+title: "CCNP Basic Concept"
 description: ""
 category: network
 tags: [cisco, ccnp, ospf]
