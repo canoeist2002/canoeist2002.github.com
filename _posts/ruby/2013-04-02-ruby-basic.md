@@ -17,8 +17,8 @@ Ruby 一个语法非常接近英语语法的编程语言，也非常的适合于
 
 ## 参考资料
 
-在线学习网站 [codecademy](http://www.codecademy.com/)
-在线学习网站 [rubymonk](http://rubymonk.com)
-书籍 《Ruby 编程语言》
-官网 [ruby](www.ruby-lang.org)
-Ruby API [API](http://www.ruby-doc.org/)
+* 在线学习网站 [codecademy](http://www.codecademy.com/)
+* 在线学习网站 [rubymonk](http://rubymonk.com)
+* 书籍 《Ruby 编程语言》
+* 官网 [ruby](www.ruby-lang.org)
+* Ruby API [API](http://www.ruby-doc.org/)
