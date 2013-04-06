@@ -108,3 +108,43 @@ Ruby 提供了大量的字符串相关 API 来方便开发者使用，
     >> a = "hello\r"                    
     >> a.chomp                          # => "hello"
     >> s = gets.chomp                   # 获得用户输入，并去掉最后的回车符
+
+### split()
+
+该方法可以根据指定的对象来分隔字符串，果然没有指定字符串的话则会使用空格来分隔字符串，它将始终会返回数组对象：
+
+    >> "Ruby is greate".split           # => ["Ruby", "is", "greate"]
+    >> "1,2,3,4".split(",")             # => ["1", "2", "3", "4"]
+
+### upcase(), downcase() 和 capitalize()
+
+这几个方法可以改变字符串在的大小字，而 capitalize() 是将首字符大写，后面的字符小写；同时这几个方法也有带 ! 的方法，可以将返回结果覆盖到自身：
+
+    >> "Ruby is greate".downcase        # => "ruby is greate"
+    >> "Ruby is greate".upcase          # => "RUBY IS GREATE"
+    >> "Ruby is greate".capitalize      # => "Ruby is greate"
+
+### ljust(), rjust() 和 center()
+
+可以按对齐的方法输出字符串，用的比较少：
+
+    >> "ruby".center(20)                 # => "        ruby        "
+
+### count()
+
+记数方法，可以统计指定的字符串出现的数量：
+
+    >> "Ruby is greate".count("r")      # => 1
+    >> "Ruby is greate".count(" ")      # => 2
+
+### to_i(), to_f(), to_sym(), to_complex()
+
+将字符串对象转换成指定的格式，i 是整数，f 是浮点数，sym 是 hash 中用的符号，complex 是复数：
+
+    >> "10".to_i                        # => 10
+    >> "a10a".to_i                      # => 0
+    >> "10a".to_i                       # => 10
+
+## 参考资料
+
+* Ruby 1.9.3  [String](http://www.ruby-doc.org/core-1.9.3/String.html)
